@@ -10,14 +10,3 @@ with open('dummy.pdf', 'rb') as file:
         writer.write(new_file)
 
 
-# from PyPDF2 import PdfWriter, PdfReader
-#
-# reader = PdfReader("dummy.pdf")
-# writer = PdfWriter()
-#
-#
-# writer.add_page(reader.pages[0])
-# writer.pages[0].rotate(90)
-#
-# with open("dummy90.pdf", "wb") as fp:
-#     writer.write(fp)
